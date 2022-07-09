@@ -9,10 +9,14 @@ td {
 th {
     text-align: center;
 }
-h2 {
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 28px;
+.container>div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+#esconder {
+    visibility: hidden;
 }
 td {
     font-size: 17.5px;
